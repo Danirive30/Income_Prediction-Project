@@ -2,13 +2,14 @@
 
 ## Descripción del Proyecto
 
-Este proyecto analiza el conocido **Adult Income Dataset**, el cual predice si los ingresos de un individuo superan los $50K/año en función de diversos factores demográficos y personales. Este dataset es un excelente punto de partida para prácticas de preprocesamiento de datos y aprendizaje automático.
+Este proyecto analiza el conocido **Adult Income Dataset**, el cual predice si los ingresos de un individuo superan los $50K/año en función de diversos factores demográficos y personales.
 
 ---
 
 ## Descripción del Dataset
 
-- **Fuente**: El dataset contiene 16 columnas con 14 atributos que describen características demográficas y otras cualidades de los individuos.
+- **Fuente**: El dataset está disponible en [Kaggle](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset).
+- **Contenido**: El dataset contiene 16 columnas con 14 atributos que describen características demográficas y otras cualidades de los individuos.
 - **Variable Objetivo**: `Income` (clasificación binaria: `<=50K` y `>50K`).
 - **Atributos**:
   - `age`, `workclass`, `fnlwgt`, `education`, `educational-num`, `marital-status`, `occupation`, `relationship`, `race`, `gender`, `capital-gain`, `capital-loss`, `hours-per-week`, `native-country`.
@@ -46,24 +47,6 @@ Este proyecto analiza el conocido **Adult Income Dataset**, el cual predice si l
 
 ---
 
-## Cómo Usar
-
-1. Clona este repositorio.
-   ```bash
-   git clone <repository_url>
-   ```
-
-2. Instala las librerías necesarias.
-   ```bash
-   pip install pandas seaborn matplotlib
-   ```
-
-3. Carga el dataset (`income.csv`) en el directorio de trabajo.
-
-4. Ejecuta el script proporcionado en un Jupyter Notebook o cualquier IDE de Python.
-
----
-
 ## Resultados
 
 - Atributos como `education`, `marital-status` y `occupation` tienen una fuerte influencia en la clase de ingresos.
@@ -79,19 +62,5 @@ Este proyecto analiza el conocido **Adult Income Dataset**, el cual predice si l
 - Optimizar la selección de características e hiperparámetros del modelo.
 
 ---
-
-## Estructura del Proyecto
-
-```plaintext
-adult-income-prediction/
-├── data/
-│   └── income.csv
-├── notebooks/
-│   └── EDA_and_Preprocessing.ipynb
-├── scripts/
-│   └── data_preprocessing.py
-├── README.md
-```
-
 
 # Income_Prediction-Project
